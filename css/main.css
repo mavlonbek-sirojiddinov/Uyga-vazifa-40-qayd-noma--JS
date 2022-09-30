@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background-image: url(../img/Free-download-Black-Abstract-Wallpaper-For-Laptop-1920x1200-.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: calc(50% + 0px) -50px;
+}
+
+.text-head {
+  margin: 40px 0 40px;
+  padding: 0;
+  background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000,#fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+  font-size: 55px;
+  background-size: 400%;
+  font-family: 'Livvic';
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+  word-spacing: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animat 20s linear infinite;
+  text-transform: uppercase;
+}
+
+@keyframes animat {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 300% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.edit-input:disabled {
+  background-color: transparent;
+  border: none;
+}
+
+.edit-input {
+  border: none;
+  outline: none ;
+}
+
+.edit-input:focus {
+  border-bottom: 1.8px solid chartreuse;
+}
